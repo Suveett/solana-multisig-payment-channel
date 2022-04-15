@@ -1,0 +1,14 @@
+[features]
+seeds = false
+[programs.localnet]
+solana_pay_channel_multisig = "4STy3H6Nw4bqFE48STm3aoDnhqu3DLhhHvoRN1s5WLko"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "localnet"
+wallet = "/Users/aadyakalra/.config/solana/id.json"
+
+[scripts]
+test = "yarn run mocha -t 1000000 tests/"
